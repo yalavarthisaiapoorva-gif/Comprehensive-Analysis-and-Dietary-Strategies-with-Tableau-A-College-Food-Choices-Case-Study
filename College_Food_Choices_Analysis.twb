@@ -1,0 +1,2820 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0603.1643                               -->
+<workbook original-version='18.1' source-build='2026.2.0 (20262.26.0603.1643)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='food_coded' inline='true' name='federated.1xfgoi8031f1pc1as5zri08dyxcw' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='food_coded' name='textscan.0h7sain10z5wd7193vfev1q5h1m8'>
+            <connection class='textscan' directory='C:/Users/intel/Desktop' filename='food_coded.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0h7sain10z5wd7193vfev1q5h1m8' name='food_coded.csv' table='[food_coded#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='real' name='GPA' ordinal='0' />
+            <column datatype='integer' name='Gender' ordinal='1' />
+            <column datatype='integer' name='breakfast' ordinal='2' />
+            <column datatype='integer' name='calories_chicken' ordinal='3' />
+            <column datatype='string' name='calories_day' ordinal='4' />
+            <column datatype='integer' name='calories_scone' ordinal='5' />
+            <column datatype='integer' name='coffee' ordinal='6' />
+            <column datatype='string' name='comfort_food' ordinal='7' />
+            <column datatype='string' name='comfort_food_reasons' ordinal='8' />
+            <column datatype='integer' name='comfort_food_reasons_coded' ordinal='9' />
+            <column datatype='integer' name='cook' ordinal='10' />
+            <column datatype='integer' name='comfort_food_reasons_coded 1' ordinal='11' />
+            <column datatype='string' name='cuisine' ordinal='12' />
+            <column datatype='string' name='diet_current' ordinal='13' />
+            <column datatype='integer' name='diet_current_coded' ordinal='14' />
+            <column datatype='integer' name='drink' ordinal='15' />
+            <column datatype='string' name='eating_changes' ordinal='16' />
+            <column datatype='integer' name='eating_changes_coded' ordinal='17' />
+            <column datatype='integer' name='eating_changes_coded1' ordinal='18' />
+            <column datatype='integer' name='eating_out' ordinal='19' />
+            <column datatype='string' name='employment' ordinal='20' />
+            <column datatype='integer' name='ethnic_food' ordinal='21' />
+            <column datatype='string' name='exercise' ordinal='22' />
+            <column datatype='integer' name='father_education' ordinal='23' />
+            <column datatype='string' name='father_profession' ordinal='24' />
+            <column datatype='string' name='fav_cuisine' ordinal='25' />
+            <column datatype='integer' name='fav_cuisine_coded' ordinal='26' />
+            <column datatype='integer' name='fav_food' ordinal='27' />
+            <column datatype='string' name='food_childhood' ordinal='28' />
+            <column datatype='integer' name='fries' ordinal='29' />
+            <column datatype='integer' name='fruit_day' ordinal='30' />
+            <column datatype='integer' name='grade_level' ordinal='31' />
+            <column datatype='integer' name='greek_food' ordinal='32' />
+            <column datatype='integer' name='healthy_feeling' ordinal='33' />
+            <column datatype='string' name='healthy_meal' ordinal='34' />
+            <column datatype='string' name='ideal_diet' ordinal='35' />
+            <column datatype='integer' name='ideal_diet_coded' ordinal='36' />
+            <column datatype='integer' name='income' ordinal='37' />
+            <column datatype='integer' name='indian_food' ordinal='38' />
+            <column datatype='integer' name='italian_food' ordinal='39' />
+            <column datatype='integer' name='life_rewarding' ordinal='40' />
+            <column datatype='integer' name='marital_status' ordinal='41' />
+            <column datatype='string' name='meals_dinner_friend' ordinal='42' />
+            <column datatype='integer' name='mother_education' ordinal='43' />
+            <column datatype='string' name='mother_profession' ordinal='44' />
+            <column datatype='integer' name='nutritional_check' ordinal='45' />
+            <column datatype='integer' name='on_off_campus' ordinal='46' />
+            <column datatype='integer' name='parents_cook' ordinal='47' />
+            <column datatype='integer' name='pay_meal_out' ordinal='48' />
+            <column datatype='integer' name='persian_food' ordinal='49' />
+            <column datatype='integer' name='self_perception_weight' ordinal='50' />
+            <column datatype='integer' name='soup' ordinal='51' />
+            <column datatype='integer' name='sports' ordinal='52' />
+            <column datatype='integer' name='thai_food' ordinal='53' />
+            <column datatype='integer' name='tortilla_calories' ordinal='54' />
+            <column datatype='integer' name='turkey_calories' ordinal='55' />
+            <column datatype='string' name='type_sports' ordinal='56' />
+            <column datatype='integer' name='veggies_day' ordinal='57' />
+            <column datatype='integer' name='vitamins' ordinal='58' />
+            <column datatype='integer' name='waffle_calories' ordinal='59' />
+            <column datatype='integer' name='weight' ordinal='60' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='record-delimiter'>&quot;\\r&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GPA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GPA]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>GPA</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>breakfast</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[breakfast]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>breakfast</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>calories_chicken</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[calories_chicken]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>calories_chicken</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>calories_day</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[calories_day]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>calories_day</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>calories_scone</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[calories_scone]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>calories_scone</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coffee</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[coffee]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>coffee</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>comfort_food</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[comfort_food]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>comfort_food</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>comfort_food_reasons</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[comfort_food_reasons]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>comfort_food_reasons</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>comfort_food_reasons_coded</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[comfort_food_reasons_coded]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>comfort_food_reasons_coded</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cook</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cook]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>cook</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>comfort_food_reasons_coded 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[comfort_food_reasons_coded 1]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>comfort_food_reasons_coded 1</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cuisine</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cuisine]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>cuisine</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>diet_current</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[diet_current]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>diet_current</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>diet_current_coded</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[diet_current_coded]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>diet_current_coded</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>drink</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[drink]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>drink</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>eating_changes</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[eating_changes]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>eating_changes</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>eating_changes_coded</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[eating_changes_coded]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>eating_changes_coded</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>eating_changes_coded1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[eating_changes_coded1]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>eating_changes_coded1</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>eating_out</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[eating_out]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>eating_out</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>employment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[employment]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>employment</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ethnic_food</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ethnic_food]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>ethnic_food</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>exercise</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[exercise]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>exercise</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>father_education</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[father_education]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>father_education</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>father_profession</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[father_profession]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>father_profession</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fav_cuisine</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[fav_cuisine]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>fav_cuisine</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fav_cuisine_coded</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[fav_cuisine_coded]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>fav_cuisine_coded</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fav_food</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[fav_food]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>fav_food</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>food_childhood</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[food_childhood]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>food_childhood</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fries</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[fries]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>fries</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fruit_day</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[fruit_day]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>fruit_day</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>grade_level</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[grade_level]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>grade_level</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>greek_food</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[greek_food]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>greek_food</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>healthy_feeling</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[healthy_feeling]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>healthy_feeling</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>healthy_meal</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[healthy_meal]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>healthy_meal</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ideal_diet</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ideal_diet]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>ideal_diet</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ideal_diet_coded</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ideal_diet_coded]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>ideal_diet_coded</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>income</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[income]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>income</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>indian_food</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[indian_food]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>indian_food</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>italian_food</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[italian_food]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>italian_food</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>life_rewarding</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[life_rewarding]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>life_rewarding</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>marital_status</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[marital_status]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>marital_status</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>meals_dinner_friend</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[meals_dinner_friend]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>meals_dinner_friend</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mother_education</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mother_education]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>mother_education</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mother_profession</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mother_profession]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>mother_profession</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nutritional_check</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nutritional_check]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>nutritional_check</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>on_off_campus</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[on_off_campus]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>on_off_campus</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>parents_cook</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[parents_cook]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>parents_cook</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pay_meal_out</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pay_meal_out]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>pay_meal_out</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>persian_food</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[persian_food]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>persian_food</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>self_perception_weight</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[self_perception_weight]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>self_perception_weight</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>soup</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[soup]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>soup</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sports</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[sports]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>sports</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>thai_food</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[thai_food]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>thai_food</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tortilla_calories</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[tortilla_calories]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>tortilla_calories</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>turkey_calories</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[turkey_calories]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>turkey_calories</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>type_sports</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[type_sports]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>type_sports</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>veggies_day</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[veggies_day]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>veggies_day</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vitamins</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[vitamins]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>vitamins</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>waffle_calories</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[waffle_calories]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>waffle_calories</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weight</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[weight]</local-name>
+            <parent-name>[food_coded.csv]</parent-name>
+            <remote-alias>weight</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='food_coded.csv' datatype='table' name='[__tableau_internal_object_id__].[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]' role='measure' type='quantitative' />
+      <column caption='Breakfast' datatype='integer' name='[breakfast]' role='measure' type='quantitative' />
+      <column caption='Calories Chicken' datatype='integer' name='[calories_chicken]' role='measure' type='quantitative' />
+      <column caption='Calories Day' datatype='string' name='[calories_day]' role='dimension' type='nominal' />
+      <column caption='Calories Scone' datatype='integer' name='[calories_scone]' role='measure' type='quantitative' />
+      <column caption='Coffee' datatype='integer' name='[coffee]' role='measure' type='quantitative' />
+      <column caption='Comfort Food' datatype='string' name='[comfort_food]' role='dimension' type='nominal' />
+      <column caption='Comfort Food Reasons' datatype='string' name='[comfort_food_reasons]' role='dimension' type='nominal' />
+      <column caption='Comfort Food Reasons Coded 1' datatype='integer' name='[comfort_food_reasons_coded 1]' role='measure' type='quantitative' />
+      <column caption='Comfort Food Reasons Coded' datatype='integer' name='[comfort_food_reasons_coded]' role='measure' type='quantitative' />
+      <column caption='Cook' datatype='integer' name='[cook]' role='measure' type='quantitative' />
+      <column caption='Cuisine' datatype='string' name='[cuisine]' role='dimension' type='nominal' />
+      <column caption='Diet Current' datatype='string' name='[diet_current]' role='dimension' type='nominal' />
+      <column caption='Diet Current Coded' datatype='integer' name='[diet_current_coded]' role='measure' type='quantitative' />
+      <column caption='Drink' datatype='integer' name='[drink]' role='measure' type='quantitative' />
+      <column caption='Eating Changes' datatype='string' name='[eating_changes]' role='dimension' type='nominal' />
+      <column caption='Eating Changes Coded1' datatype='integer' name='[eating_changes_coded1]' role='measure' type='quantitative' />
+      <column caption='Eating Changes Coded' datatype='integer' name='[eating_changes_coded]' role='measure' type='quantitative' />
+      <column caption='Eating Out' datatype='integer' name='[eating_out]' role='measure' type='quantitative' />
+      <column caption='Employment' datatype='string' name='[employment]' role='dimension' type='nominal' />
+      <column caption='Ethnic Food' datatype='integer' name='[ethnic_food]' role='measure' type='quantitative' />
+      <column caption='Exercise' datatype='string' name='[exercise]' role='dimension' type='nominal' />
+      <column caption='Father Education' datatype='integer' name='[father_education]' role='measure' type='quantitative' />
+      <column caption='Father Profession' datatype='string' name='[father_profession]' role='dimension' type='nominal' />
+      <column caption='Fav Cuisine' datatype='string' name='[fav_cuisine]' role='dimension' type='nominal' />
+      <column caption='Fav Cuisine Coded' datatype='integer' name='[fav_cuisine_coded]' role='measure' type='quantitative' />
+      <column caption='Fav Food' datatype='integer' name='[fav_food]' role='measure' type='quantitative' />
+      <column caption='Food Childhood' datatype='string' name='[food_childhood]' role='dimension' type='nominal' />
+      <column caption='Fries' datatype='integer' name='[fries]' role='measure' type='quantitative' />
+      <column caption='Fruit Day' datatype='integer' name='[fruit_day]' role='dimension' type='quantitative' />
+      <column caption='Grade Level' datatype='integer' name='[grade_level]' role='measure' type='quantitative' />
+      <column caption='Greek Food' datatype='integer' name='[greek_food]' role='measure' type='quantitative' />
+      <column caption='Healthy Feeling' datatype='integer' name='[healthy_feeling]' role='measure' type='quantitative' />
+      <column caption='Healthy Meal' datatype='string' name='[healthy_meal]' role='dimension' type='nominal' />
+      <column caption='Ideal Diet' datatype='string' name='[ideal_diet]' role='dimension' type='nominal' />
+      <column caption='Ideal Diet Coded' datatype='integer' name='[ideal_diet_coded]' role='measure' type='quantitative' />
+      <column caption='Income' datatype='integer' name='[income]' role='measure' type='quantitative' />
+      <column caption='Indian Food' datatype='integer' name='[indian_food]' role='measure' type='quantitative' />
+      <column caption='Italian Food' datatype='integer' name='[italian_food]' role='measure' type='quantitative' />
+      <column caption='Life Rewarding' datatype='integer' name='[life_rewarding]' role='measure' type='quantitative' />
+      <column caption='Marital Status' datatype='integer' name='[marital_status]' role='measure' type='quantitative' />
+      <column caption='Meals Dinner Friend' datatype='string' name='[meals_dinner_friend]' role='dimension' type='nominal' />
+      <column caption='Mother Education' datatype='integer' name='[mother_education]' role='measure' type='quantitative' />
+      <column caption='Mother Profession' datatype='string' name='[mother_profession]' role='dimension' type='nominal' />
+      <column caption='Nutritional Check' datatype='integer' name='[nutritional_check]' role='measure' type='quantitative' />
+      <column caption='On Off Campus' datatype='integer' name='[on_off_campus]' role='measure' type='quantitative' />
+      <column caption='Parents Cook' datatype='integer' name='[parents_cook]' role='measure' type='quantitative' />
+      <column caption='Pay Meal Out' datatype='integer' name='[pay_meal_out]' role='measure' type='quantitative' />
+      <column caption='Persian Food' datatype='integer' name='[persian_food]' role='measure' type='quantitative' />
+      <column caption='Self Perception Weight' datatype='integer' name='[self_perception_weight]' role='measure' type='quantitative' />
+      <column caption='Soup' datatype='integer' name='[soup]' role='measure' type='quantitative' />
+      <column caption='Sports' datatype='integer' name='[sports]' role='measure' type='quantitative' />
+      <column caption='Thai Food' datatype='integer' name='[thai_food]' role='measure' type='quantitative' />
+      <column caption='Tortilla Calories' datatype='integer' name='[tortilla_calories]' role='measure' type='quantitative' />
+      <column caption='Turkey Calories' datatype='integer' name='[turkey_calories]' role='measure' type='quantitative' />
+      <column caption='Type Sports' datatype='string' name='[type_sports]' role='dimension' type='nominal' />
+      <column caption='Veggies Day' datatype='integer' name='[veggies_day]' role='dimension' type='quantitative' />
+      <column caption='Vitamins' datatype='integer' name='[vitamins]' role='measure' type='quantitative' />
+      <column caption='Waffle Calories' datatype='integer' name='[waffle_calories]' role='measure' type='quantitative' />
+      <column caption='Weight' datatype='integer' name='[weight]' role='measure' type='quantitative' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/intel/AppData/Local/Temp/TableauTemp/#TableauTemp_0wt2bs008rv63w1asy8by1w46pnx.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/06/2026 04:41:13 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>GPA</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[GPA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GPA</remote-alias>
+              <ordinal>0</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>36</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gender</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gender</remote-alias>
+              <ordinal>1</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>breakfast</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[breakfast]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>breakfast</remote-alias>
+              <ordinal>2</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>calories_chicken</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[calories_chicken]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>calories_chicken</remote-alias>
+              <ordinal>3</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>calories_day</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[calories_day]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>calories_day</remote-alias>
+              <ordinal>4</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>calories_scone</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[calories_scone]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>calories_scone</remote-alias>
+              <ordinal>5</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>coffee</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[coffee]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>coffee</remote-alias>
+              <ordinal>6</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>comfort_food</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[comfort_food]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>comfort_food</remote-alias>
+              <ordinal>7</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>125</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>comfort_food_reasons</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[comfort_food_reasons]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>comfort_food_reasons</remote-alias>
+              <ordinal>8</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>106</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>comfort_food_reasons_coded</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[comfort_food_reasons_coded]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>comfort_food_reasons_coded</remote-alias>
+              <ordinal>9</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>cook</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[cook]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>cook</remote-alias>
+              <ordinal>10</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>comfort_food_reasons_coded 1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[comfort_food_reasons_coded 1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>comfort_food_reasons_coded 1</remote-alias>
+              <ordinal>11</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>cuisine</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[cuisine]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>cuisine</remote-alias>
+              <ordinal>12</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>diet_current</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[diet_current]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>diet_current</remote-alias>
+              <ordinal>13</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>125</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>diet_current_coded</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[diet_current_coded]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>diet_current_coded</remote-alias>
+              <ordinal>14</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>drink</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[drink]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>drink</remote-alias>
+              <ordinal>15</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>eating_changes</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[eating_changes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>eating_changes</remote-alias>
+              <ordinal>16</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>122</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>eating_changes_coded</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[eating_changes_coded]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>eating_changes_coded</remote-alias>
+              <ordinal>17</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>eating_changes_coded1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[eating_changes_coded1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>eating_changes_coded1</remote-alias>
+              <ordinal>18</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>eating_out</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[eating_out]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>eating_out</remote-alias>
+              <ordinal>19</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>employment</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[employment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>employment</remote-alias>
+              <ordinal>20</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ethnic_food</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ethnic_food]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ethnic_food</remote-alias>
+              <ordinal>21</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>exercise</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[exercise]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>exercise</remote-alias>
+              <ordinal>22</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>father_education</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[father_education]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>father_education</remote-alias>
+              <ordinal>23</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>father_profession</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[father_profession]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>father_profession</remote-alias>
+              <ordinal>24</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>110</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>fav_cuisine</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[fav_cuisine]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>fav_cuisine</remote-alias>
+              <ordinal>25</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>54</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>fav_cuisine_coded</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[fav_cuisine_coded]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>fav_cuisine_coded</remote-alias>
+              <ordinal>26</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>fav_food</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[fav_food]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>fav_food</remote-alias>
+              <ordinal>27</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>food_childhood</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[food_childhood]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>food_childhood</remote-alias>
+              <ordinal>28</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>113</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>fries</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[fries]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>fries</remote-alias>
+              <ordinal>29</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>fruit_day</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[fruit_day]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>fruit_day</remote-alias>
+              <ordinal>30</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>grade_level</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[grade_level]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>grade_level</remote-alias>
+              <ordinal>31</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>greek_food</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[greek_food]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>greek_food</remote-alias>
+              <ordinal>32</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>healthy_feeling</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[healthy_feeling]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>healthy_feeling</remote-alias>
+              <ordinal>33</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>healthy_meal</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[healthy_meal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>healthy_meal</remote-alias>
+              <ordinal>34</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>124</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ideal_diet</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ideal_diet]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ideal_diet</remote-alias>
+              <ordinal>35</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>125</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ideal_diet_coded</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ideal_diet_coded]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ideal_diet_coded</remote-alias>
+              <ordinal>36</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>income</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[income]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>income</remote-alias>
+              <ordinal>37</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>indian_food</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[indian_food]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>indian_food</remote-alias>
+              <ordinal>38</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>italian_food</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[italian_food]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>italian_food</remote-alias>
+              <ordinal>39</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>life_rewarding</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[life_rewarding]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>life_rewarding</remote-alias>
+              <ordinal>40</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>marital_status</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[marital_status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>marital_status</remote-alias>
+              <ordinal>41</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>meals_dinner_friend</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[meals_dinner_friend]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>meals_dinner_friend</remote-alias>
+              <ordinal>42</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>122</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>mother_education</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[mother_education]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>mother_education</remote-alias>
+              <ordinal>43</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>mother_profession</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[mother_profession]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>mother_profession</remote-alias>
+              <ordinal>44</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>109</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>nutritional_check</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[nutritional_check]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>nutritional_check</remote-alias>
+              <ordinal>45</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>on_off_campus</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[on_off_campus]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>on_off_campus</remote-alias>
+              <ordinal>46</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>parents_cook</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[parents_cook]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>parents_cook</remote-alias>
+              <ordinal>47</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pay_meal_out</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[pay_meal_out]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pay_meal_out</remote-alias>
+              <ordinal>48</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>persian_food</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[persian_food]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>persian_food</remote-alias>
+              <ordinal>49</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>self_perception_weight</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[self_perception_weight]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>self_perception_weight</remote-alias>
+              <ordinal>50</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>soup</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[soup]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>soup</remote-alias>
+              <ordinal>51</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>sports</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[sports]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>sports</remote-alias>
+              <ordinal>52</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>thai_food</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[thai_food]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>thai_food</remote-alias>
+              <ordinal>53</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>tortilla_calories</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[tortilla_calories]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>tortilla_calories</remote-alias>
+              <ordinal>54</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>turkey_calories</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[turkey_calories]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>turkey_calories</remote-alias>
+              <ordinal>55</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>type_sports</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[type_sports]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>type_sports</remote-alias>
+              <ordinal>56</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>60</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>veggies_day</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[veggies_day]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>veggies_day</remote-alias>
+              <ordinal>57</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>vitamins</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[vitamins]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>vitamins</remote-alias>
+              <ordinal>58</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>waffle_calories</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[waffle_calories]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>waffle_calories</remote-alias>
+              <ordinal>59</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>weight</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[weight]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>weight</remote-alias>
+              <ordinal>60</ordinal>
+              <family>food_coded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>45</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='food_coded.csv' id='food_coded.csv_04EAADFE607041D7A1AD7AF1B822824E'>
+            <properties context=''>
+              <relation connection='textscan.0h7sain10z5wd7193vfev1q5h1m8' name='food_coded.csv' table='[food_coded#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='real' name='GPA' ordinal='0' />
+                  <column datatype='integer' name='Gender' ordinal='1' />
+                  <column datatype='integer' name='breakfast' ordinal='2' />
+                  <column datatype='integer' name='calories_chicken' ordinal='3' />
+                  <column datatype='string' name='calories_day' ordinal='4' />
+                  <column datatype='integer' name='calories_scone' ordinal='5' />
+                  <column datatype='integer' name='coffee' ordinal='6' />
+                  <column datatype='string' name='comfort_food' ordinal='7' />
+                  <column datatype='string' name='comfort_food_reasons' ordinal='8' />
+                  <column datatype='integer' name='comfort_food_reasons_coded' ordinal='9' />
+                  <column datatype='integer' name='cook' ordinal='10' />
+                  <column datatype='integer' name='comfort_food_reasons_coded 1' ordinal='11' />
+                  <column datatype='string' name='cuisine' ordinal='12' />
+                  <column datatype='string' name='diet_current' ordinal='13' />
+                  <column datatype='integer' name='diet_current_coded' ordinal='14' />
+                  <column datatype='integer' name='drink' ordinal='15' />
+                  <column datatype='string' name='eating_changes' ordinal='16' />
+                  <column datatype='integer' name='eating_changes_coded' ordinal='17' />
+                  <column datatype='integer' name='eating_changes_coded1' ordinal='18' />
+                  <column datatype='integer' name='eating_out' ordinal='19' />
+                  <column datatype='string' name='employment' ordinal='20' />
+                  <column datatype='integer' name='ethnic_food' ordinal='21' />
+                  <column datatype='string' name='exercise' ordinal='22' />
+                  <column datatype='integer' name='father_education' ordinal='23' />
+                  <column datatype='string' name='father_profession' ordinal='24' />
+                  <column datatype='string' name='fav_cuisine' ordinal='25' />
+                  <column datatype='integer' name='fav_cuisine_coded' ordinal='26' />
+                  <column datatype='integer' name='fav_food' ordinal='27' />
+                  <column datatype='string' name='food_childhood' ordinal='28' />
+                  <column datatype='integer' name='fries' ordinal='29' />
+                  <column datatype='integer' name='fruit_day' ordinal='30' />
+                  <column datatype='integer' name='grade_level' ordinal='31' />
+                  <column datatype='integer' name='greek_food' ordinal='32' />
+                  <column datatype='integer' name='healthy_feeling' ordinal='33' />
+                  <column datatype='string' name='healthy_meal' ordinal='34' />
+                  <column datatype='string' name='ideal_diet' ordinal='35' />
+                  <column datatype='integer' name='ideal_diet_coded' ordinal='36' />
+                  <column datatype='integer' name='income' ordinal='37' />
+                  <column datatype='integer' name='indian_food' ordinal='38' />
+                  <column datatype='integer' name='italian_food' ordinal='39' />
+                  <column datatype='integer' name='life_rewarding' ordinal='40' />
+                  <column datatype='integer' name='marital_status' ordinal='41' />
+                  <column datatype='string' name='meals_dinner_friend' ordinal='42' />
+                  <column datatype='integer' name='mother_education' ordinal='43' />
+                  <column datatype='string' name='mother_profession' ordinal='44' />
+                  <column datatype='integer' name='nutritional_check' ordinal='45' />
+                  <column datatype='integer' name='on_off_campus' ordinal='46' />
+                  <column datatype='integer' name='parents_cook' ordinal='47' />
+                  <column datatype='integer' name='pay_meal_out' ordinal='48' />
+                  <column datatype='integer' name='persian_food' ordinal='49' />
+                  <column datatype='integer' name='self_perception_weight' ordinal='50' />
+                  <column datatype='integer' name='soup' ordinal='51' />
+                  <column datatype='integer' name='sports' ordinal='52' />
+                  <column datatype='integer' name='thai_food' ordinal='53' />
+                  <column datatype='integer' name='tortilla_calories' ordinal='54' />
+                  <column datatype='integer' name='turkey_calories' ordinal='55' />
+                  <column datatype='string' name='type_sports' ordinal='56' />
+                  <column datatype='integer' name='veggies_day' ordinal='57' />
+                  <column datatype='integer' name='vitamins' ordinal='58' />
+                  <column datatype='integer' name='waffle_calories' ordinal='59' />
+                  <column datatype='integer' name='weight' ordinal='60' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='food_coded' name='federated.1xfgoi8031f1pc1as5zri08dyxcw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xfgoi8031f1pc1as5zri08dyxcw'>
+            <column datatype='integer' name='[Gender]' role='measure' type='quantitative' />
+            <column-instance column='[Gender]' derivation='Count' name='[cnt:Gender:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.1xfgoi8031f1pc1as5zri08dyxcw].[none:Gender:qk]</rows>
+        <cols>[federated.1xfgoi8031f1pc1as5zri08dyxcw].[cnt:Gender:qk]</cols>
+      </table>
+      <simple-id uuid='{8D3C025C-04FD-48CE-864D-CC297E7AE12F}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='food_coded' name='federated.1xfgoi8031f1pc1as5zri08dyxcw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xfgoi8031f1pc1as5zri08dyxcw'>
+            <column caption='Breakfast' datatype='integer' name='[breakfast]' role='measure' type='quantitative' />
+            <column-instance column='[breakfast]' derivation='Count' name='[cnt:breakfast:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[breakfast]' derivation='None' name='[none:breakfast:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.1xfgoi8031f1pc1as5zri08dyxcw].[none:breakfast:qk]</rows>
+        <cols>[federated.1xfgoi8031f1pc1as5zri08dyxcw].[cnt:breakfast:qk]</cols>
+      </table>
+      <simple-id uuid='{CCBA12B8-E2B2-4C54-B903-FEC9D5D64D59}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='food_coded' name='federated.1xfgoi8031f1pc1as5zri08dyxcw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xfgoi8031f1pc1as5zri08dyxcw'>
+            <column-instance column='[coffee]' derivation='Count' name='[cnt:coffee:qk]' pivot='key' type='quantitative' />
+            <column caption='Coffee' datatype='integer' name='[coffee]' role='measure' type='quantitative' />
+            <column-instance column='[coffee]' derivation='None' name='[none:coffee:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[coffee]' derivation='Sum' name='[sum:coffee:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1xfgoi8031f1pc1as5zri08dyxcw].[cnt:coffee:qk]' />
+              <text column='[federated.1xfgoi8031f1pc1as5zri08dyxcw].[none:coffee:qk]' />
+              <lod column='[federated.1xfgoi8031f1pc1as5zri08dyxcw].[cnt:coffee:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1xfgoi8031f1pc1as5zri08dyxcw].[none:coffee:qk]</rows>
+        <cols>[federated.1xfgoi8031f1pc1as5zri08dyxcw].[sum:coffee:qk]</cols>
+      </table>
+      <simple-id uuid='{39F1ADC7-CD62-4ABC-ACC1-CF0F396B5D88}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='food_coded' name='federated.1xfgoi8031f1pc1as5zri08dyxcw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xfgoi8031f1pc1as5zri08dyxcw'>
+            <column-instance column='[eating_out]' derivation='Count' name='[cnt:eating_out:qk]' pivot='key' type='quantitative' />
+            <column caption='Eating Out' datatype='integer' name='[eating_out]' role='measure' type='quantitative' />
+            <column-instance column='[eating_out]' derivation='Sum' name='[sum:eating_out:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.1xfgoi8031f1pc1as5zri08dyxcw].[cnt:eating_out:qk]</rows>
+        <cols>[federated.1xfgoi8031f1pc1as5zri08dyxcw].[sum:eating_out:qk]</cols>
+      </table>
+      <simple-id uuid='{E2DEE856-FA4E-4F9C-80D8-F08B33407928}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='food_coded' name='federated.1xfgoi8031f1pc1as5zri08dyxcw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xfgoi8031f1pc1as5zri08dyxcw'>
+            <column datatype='real' name='[GPA]' role='measure' type='quantitative' />
+            <column-instance column='[GPA]' derivation='Count' name='[cnt:GPA:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[GPA]' derivation='None' name='[none:GPA:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.1xfgoi8031f1pc1as5zri08dyxcw].[none:GPA:qk]</rows>
+        <cols>[federated.1xfgoi8031f1pc1as5zri08dyxcw].[cnt:GPA:qk]</cols>
+      </table>
+      <simple-id uuid='{4196A8A9-4F64-430E-A8C9-FE9FA1110B2C}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='24449' id='3' name='Sheet 1' w='97538' x='1231' y='74448'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='24448' id='5' name='Sheet 2' w='97538' x='1231' y='1103'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='24448' id='6' name='Sheet 3' w='48769' x='1231' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='24448' id='7' name='Sheet 4' w='48769' x='50000' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='24449' id='8' name='Sheet 5' w='97538' x='1231' y='25551'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1100' minheight='1100' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97794' id='9' param='vert' type-v2='layout-flow' w='97538' x='1231' y='1103'>
+                <zone fixed-size='203' h='24448' id='5' is-fixed='true' name='Sheet 2' w='97538' x='1231' y='1103'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='202' h='24449' id='8' is-fixed='true' name='Sheet 5' w='97538' x='1231' y='25551'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='202' h='24448' id='6' is-fixed='true' name='Sheet 3' w='48769' x='1231' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='202' h='24448' id='7' is-fixed='true' name='Sheet 4' w='48769' x='50000' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='203' h='24449' id='3' is-fixed='true' name='Sheet 1' w='97538' x='1231' y='74448'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{5F9D20F3-A409-442B-87FA-3681B8B81FA7}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{341FBF43-03CE-4B59-B37C-52DECE10F550}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BCB644C5-DC68-4273-A1FB-287ADF447CDC}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1xfgoi8031f1pc1as5zri08dyxcw].[cnt:coffee:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1xfgoi8031f1pc1as5zri08dyxcw].[none:coffee:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{44B83F0F-2C68-4691-862D-36D0B1EF610A}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{31AC4FA2-95E5-4FE3-82B1-9C55D025F13F}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9B5A9739-22F3-49F2-B286-E92C4A783160}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 3'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 4'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 5'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{677C58F5-57D2-4DEC-B45B-3F279CA4D84B}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      AABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      AAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAKDUlEQVR4nO3dW28cZx3H8d8zhz14d22v7TRNStM0tBFJpcJFS0VBAhVuOEkgbrhAvAvu
+      8zYQbwIE4oKeoEKNqkYhkCapiVsf4jg+rfd8mHmemYcLx1WRWDQzu157/f99pChOpGfn2fF8
+      57TrtbLWWhAJ5Zz0BIhOkjfK4DiOEccxeBChaaXGcQpkjIHnZWvJGAPXdaGUyjQ+iiIopeA4
+      2Q5mWmv4vp9p7LSP57rT6U+Bwl4bq6ufYXO7lnnBRKdF6gByhSKs7iPQ8XHMh2iiUgfQ73WR
+      K1YQ9DvHMR+iiUp94p4rzqAKF+cvzhzHfIgmKnUAruujVM5+4UF0mvB1ABKNAZBoDIBEYwAk
+      GgMg0RgAicYASDQGQKIxABKNAZBoDIBEYwAkGgMg0RgAicYASDQGQKIxABKNAZBoDIBEYwAk
+      GgMg0RgAicYASDQGQKIxABKNAZBoDIBEYwAkGgMg0RgAicYASDQGQKIxABKNAZBoDIBEYwAk
+      GgMg0RgAicYASDQGQKIxABKNAZBoDIBEYwAkGgMg0RgAicYASDQGQKJ543iQdj9EFIeZxkZR
+      BMdxoJTKND6OYwCA4yRvuTKTQ94fy1OnKZd6K7DWotfrolCcgft0o/vtH27h5v2tsU/uuPzm
+      l2/iO69eOulp0CmQ+hQo6LXQ7rSxtvHkOOZDNFGpjwC5fBGdx0+wdPEy4jj+4hRkmkRxBK31
+      4ddRNNpjTfF4ay0AZD79nObnfjQ+dQDNvceotQYozvcwXy6kOvc+LVzHhe/7X/z7y19nMa3j
+      oyiCUmqk7+G0PvcjqQOoXngRb1z47/978UIVgbGZJmCtxeEOKNteyFp7ODLFXqxaKWRaFp09
+      Y7kV8ovvXoPnZXsoYwxc1x3pMDzqXozk4lZDojEAEo0BkGgMgERjACQaAyDRGACJxgBINAZA
+      ojEAEo0BkGgMgERjACQaAyDRGACJNvxN/CZAKwR8E8CrzMLP9nZ9olNtaACf/eOv+P3tPTzr
+      Az/69a9Q5aeI0Bk0dLO+fO0beKvYwM7WNirc+OmMGnoNoKzGh++9AxsG2A8mOSWiyRkagFO+
+      gG+9/ircQhEL+UlOiWhyhgYQNzdwb3kb3V4LHTPJKRFNzpCze41ax8Gb33sT9f19zLqTnRTR
+      pAy9vL17813c3nfw8oULeOW1r4/n81OITpkh27WPt376c5gP78IJdcaPrCI6/YaeAt28eRv1
+      Rw/Ry73AAOjMGnoEeOPbbyDQBn3jw1ggzwroDBr+OkAcoDw7j/39PejRPoSX6NQa/mY4t4Da
+      9iouvXQdOb5ljs6ooZt21G9gb7+G23fuIpy+XwFAlMjQu5teoYznrr6On732Kkq8B0pn1P85
+      uXHR2FvH3z/4CNl+/R3R6Td03/6399+Fjiy69YNJzodoooYGcNBqo1nvoGxL6ADg++HoLBoa
+      wPd/8EP0QwPAxfwEJ0Q0SUMDmK0uYnaSMyE6AbzDT6IxABKNAZBoDIBEYwAkGgMg0RgAicYA
+      SDQGQKIxABKNAZBoDIBEYwAkGgMg0RgAicYASLSxfN7D7/50G3dWdjKNtRaAQuaPX7T28G+V
+      8QGszT522sdz3WUIIDYhHm1u4yuXL+HoU9ObnQG2D7rZZ0J0QlIHYK2FDUMYACqOYY92I0RT
+      KHUAjpdD3ncBa6GUghrlGER0wlIHYIIe+tai1WjjXPXwx+Y9zz2MIoOnlwCZcfwI108nuOxT
+      M96O4RzGGAPPy3Y9bYyB67qZjyRRFEEpBcfJdkNLaw3f9zONnfbxXHeat0FJNgZAojEAEo0B
+      kGgMgERjACQaAyDRGACJxgBINAZAojEAEo0BkGgMgERjACQaAyDRGACJxgBINAZAojEAEo0B
+      kGgMgERjACQaAyDRGACJxgBINAZAojEAEo0BkGgMgERjACQaAyDRGACJxgBINAZAojEAEo0B
+      kGgMgERjACQaAyDRGACJxgBINAZAojEAEo0BkGgMgERjACQaAyDRGACJxgBINAZAoqUOoN+u
+      4d69T7C12zyO+RBNVOoAus0mLl19Bb3m7nHMh2iiUgfg532sP/wUyFWOYz5EE+WlHTB37nmU
+      FyI4rnsc8yGaKGWttVkHx3H8xR/HyXY9PcpYADiavlLqRJY/zeO57uLRAjhijIHnpT6YAACi
+      KILjOCN9EwBkXhGjzH3ax3PdmfEEYK3NvAGPuhcax/isY6d9PNedHU8ARNPKvXHjxo1RH0T3
+      6njw7zUY5aFSKiYfaDr41ycrsK6H8kyKcQCisI/7d5cx9+wSNpaXsdfsoFqdR9IdQrdZw8r6
+      NhbKOdz7dBlwCyjPFBIv/8nmOra29qCUxuraI3j5Eop5P9FYawKsrT/CQbOL9sE2agdtVObn
+      4SbdmUUam483sb1bR9hvYn1jC3NLS/ASPnk96GDj0SZaXY3dx5+hE8SYrVQSrzsbR7h/+2Pk
+      5qpYW3mInlaYq5QSTh6Iwy4+vvMp5rwQy5v7KM6UkPeTn8qsryxjr9FFDgFW1jahvAJKxVzC
+      0QYP7n6CQeygU3synleCazsNXLl+Fd1GPdW4KNAITAhtotTLdPw8luZKiHUHmFlC3tHQUfKD
+      WbFSRSnvwEQaYRDCGJNq+YsLCzCxRb3Vx7WXnket3kg+2M1hYbaI2ALhoI8gDJHqOOz6KHgK
+      3SBET1tcv1jEo3ry+fu5ImB6CCODQS9AqHWKhQO17U24fh6tdgNLz72MQS/FcwewtrGF0oyP
+      /iBEZALEcbqTkEHQRxho7NS7uH71ChqNWvLBkUY/0NDaIAgG4wmgXPKwurIK6yWt8JD18nhm
+      YR71gwOkPQ+LdICdvT0ctEP06ttodUK4KZ5Nv9PEzu4u+mGMxcUF1OsHqZZ/69ZHUI6CbyOs
+      rD1GvpD8CGaDJj7+5zJc18Hs/AI800YrjBOPj02AXhhDmQB60MPDzQYWy8n3oINeG8ovIey1
+      sXDuGXRbDUSJC7QYBCH2d5+g09PYefw5IpvmQtQgHAywubGBOF/GbM7BQbOdYjwwX11E3G3B
+      cWKsrK7DyyVf97F1sXRuEe36AUpz1fFdBGut4fk+nBQXJUfjXM+Dm/JOhLUWURRBOQ4QR7DK
+      gZfitYkv3741RsP1cnCd5HOPjIEF4LoOtDbwfT/xBdnh3A0AB0pZRLE9HJ9w2dZaGK2hXBeO
+      Akxk4Xtu8uXHMcKn3y8bGVjlwvPcxMs/egwodbjuXB9OinUHPL0FCYvQRMilWHcAEBmNyCr4
+      ngutdep1f7juPDgY021QomnFd4OSaAyARGMAdOZZG6PZbCL6H3ebsr+OTDQVLG598Db6uSq+
+      9vIV7Gw9wQtXXoSFCxVrBkBn3047wI9/8k3c+/AvsJXzeP+9dzBz8RpyvW2eAtHZd/3yefzx
+      z28DpSpWP9/AlStfxf7aA0RugbdBSQILawGlcPiK+9EXSjEAku0/9WAjNW4/pbYAAAAASUVO
+      RK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 4' width='192'>
+      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
+      SUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 5' width='192'>
+      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
+      KAHrAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
